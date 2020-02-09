@@ -19,14 +19,15 @@ nav {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
-    padding-right: 4rem;
+    /* padding-right: 1rem; */
     margin: 0;
-    width: 30%
+    width: 40%
 }
 
 a {
-    font-size: 17px;
+    font-size: 19px;
+    padding-right: 4rem;
 }
 

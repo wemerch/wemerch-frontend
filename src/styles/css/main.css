@@ -1,0 +1,19 @@
+.Main {
+    display: flex;
+    flex-direction: row;
+    height: 75vh;
+    width: 100vw;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+img {
+    height: 75vh;
+    width: 17vw;
+    padding-right: 7rem;
+    padding-left: 7rem
+}
+
+iframe {
+    width: 55vw
+}
