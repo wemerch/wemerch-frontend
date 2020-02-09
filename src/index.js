@@ -1,8 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import '../src/styles/css/app.css'
+//components
+import Nav from "./components/nav.js"
 
 const App = () => {
-  return <div>Hello React,Webpack 4 & Babel 7!</div>;
+  return (
+      <>
+        <Nav />
+      </>
+    )
 };
 
 ReactDOM.render(<App />, document.querySelector("#root"));
