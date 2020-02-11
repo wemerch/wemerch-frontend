@@ -2,14 +2,14 @@ import React from 'react';
 
 
 //css
-import '../styles/css/whoweare.css'
-import WWAH from '../styles/img/wwa.png'
-import WWAI from '../styles/img/wwai.png'
+import '../styles/css/whatwedo.css'
+import WWDI from '../styles/img/wwdi.png'
+import WWDH from '../styles/img/wwdh.png'
 
 export default function WhoWeAre(){
     return(
         <div className="container">
-            <div className="WWAMain">
+            <div className="WWDMain">
                 {/* <h3>WHO WE ARE</h3>
                 <p>
                     wemerch is a merchandising management agency, built 
@@ -19,8 +19,8 @@ export default function WhoWeAre(){
                     by designing and managing their merchandise. All while 
                     maintaining a hassle-free and vibe friendly environment.
                 </p> */}
-                <img className="WWAH" src={WWAH}/>
-                <img className="WWAI" src={WWAI}/>
+                <img className="WWDH" src={WWDH}/>
+                <img className="WWDI" src={WWDI}/>
             </div>
         </div>
     )
