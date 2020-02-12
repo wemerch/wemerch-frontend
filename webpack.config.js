@@ -28,7 +28,8 @@ module.exports = {
               loader: 'file-loader',
             },
           ],
-        } 
+        },
+        { test: /\.(eot|svg|ttf|woff|woff2)$/, loader: 'url-loader'}
       ]
     },
     plugins: [
