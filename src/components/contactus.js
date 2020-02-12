@@ -8,7 +8,7 @@ export default function ContactUS(){
     return(
         <div className="contactContainer" id="ContactUs">
             <h3 className="CU">CONTACT US</h3>
-            <form name="contact" method="POST" data-netlify="true" className="cuform">
+            <form name="contact" method="POST" data-netlify="true" className="cuform" netlify>
             <p className="formField">
                 <input type="text" name="name" placeholder="your name" className="field"/>  
             </p>
