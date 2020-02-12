@@ -1,8 +1,9 @@
-.container {
+.wwdcontainer {
     display: flex;
     width: 100vw;
     justify-content: center;
     /* padding-top: 1rem; */
+    background-color: #19171a;
 }
 
 h3 {
@@ -44,4 +45,9 @@ h3 {
     width: 80vw;
     height: 10vh;
     padding: 1rem;
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #4be452;
 }
