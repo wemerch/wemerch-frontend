@@ -14,7 +14,7 @@ const Nav = () => {
         <ul className="ul">
             <li><a href='#WhoWeAre'>who we are</a></li>
             <li><a href="#WhatWeDo">what we do</a></li>
-            <li><a >contact us</a></li>
+            <li><a href="#ContactUs">contact us</a></li>
         </ul>
       </nav>
     )

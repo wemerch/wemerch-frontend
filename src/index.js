@@ -6,6 +6,7 @@ import Nav from "./components/nav.js"
 import Main from "./components/main.js"
 import WhoWeAre from "./components/whoweare.js"
 import WhatWeDo from "./components/whatwedo.js"
+import ContactUs from "./components/contactus.js"
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Main />
         <WhoWeAre />
         <WhatWeDo />
+        <ContactUs />
       </>
     )
 };

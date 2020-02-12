@@ -1,0 +1,57 @@
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 90vh;
+    justify-content: center;
+    background-color: #19171a;
+}
+
+.cuform {
+    height: 55vh;
+    width: 50vw;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.messageBox {
+    width: 35vw;
+    height: 25vh;
+    margin: 1rem;
+}
+
+.CU {
+    width: 80vw;
+    height: 10vh;
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 0;
+    margin-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.formField {
+    margin: 0;
+}
+
+.field {
+    height: 5vh;
+    width: 35vw;
+    margin: 1rem;
+}
+
+.formButton {
+    height: 5vh;
+    width: 20vw;
+    background-color: #4be452;
+    color: white;
+    cursor: pointer;
+}
+
+::placeholder {
+    font-size: 2rem;
+}
