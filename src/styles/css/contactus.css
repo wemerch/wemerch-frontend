@@ -68,4 +68,9 @@
     ::placeholder {
         font-size: 12px;
     }
+
+   .field {
+       height: 3vh;
+       margin: .5rem;
+   }
 }
