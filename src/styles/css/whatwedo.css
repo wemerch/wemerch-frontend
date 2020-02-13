@@ -45,3 +45,17 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: #4be452;
 }
+
+/* Media Queries */
+@media screen and (max-width:415px){
+    .WWDH{
+        height: 5vh;
+        width: 100vw;
+        font-size: 2rem;
+    }
+
+    .WWDI{
+        width: 100vw;
+        height: 95vh
+    }
+}

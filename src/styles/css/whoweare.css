@@ -23,7 +23,7 @@ h3 {
 .WWAMain {
     display: flex;
     flex-direction: column;
-    height: 40rem;
+    height: 80vh;
     width: 100vw;
     justify-content: center;
     padding-top: 0;
@@ -41,7 +41,8 @@ h3 {
     margin-right: auto;
     font-size: 3rem;
     text-align: center;
-    margin-top: 2rem
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .WWAH {
@@ -51,7 +52,19 @@ h3 {
     text-align: center;
     font-size: 4rem;
     margin-bottom: 0;
-    margin-top: 2rem;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
 }
 
+/* Media Queries */
+@media screen and (max-width:415px){
+    .WWAH{
+        height: 5vh;
+        width: 100vw;
+        font-size: 2rem;
+    }
+
+    .WWAI{
+        font-size: 1.3rem;
+    }
+}
