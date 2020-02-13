@@ -22,7 +22,7 @@ export default function ContactUS(){
                 <button type="submit" className="formButton">Send</button>
             </p>
             <input type="hidden" name="form-name" value="contact" />
-            <input name="bot-field" />
+            <input type="hidden" name="bot-field" />
             </form>
         </div>
     )
