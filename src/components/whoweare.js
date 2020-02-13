@@ -6,8 +6,8 @@ import '../styles/css/whoweare.css'
 
 export default function WhoWeAre(){
     return(
-        <div className="wwacontainer" id="WhoWeAre">
-            <div className="WWAMain">
+        <div className="wwacontainer">
+            <div className="WWAMain" id="WhoWeAre">
                 <h3 className="WWAH">WHO WE ARE</h3>
                 <p className="WWAI" >we<b>merch</b> is a merchandising management agency,<br/> built 
                     to give you <b>more time to focus on your passion.</b> <br/> <br/> We help 
