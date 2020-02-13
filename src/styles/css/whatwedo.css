@@ -47,11 +47,14 @@ h3 {
 }
 
 /* Media Queries */
-@media screen and (max-width:415px){
+@media screen and (min-width: 360px) and (max-width: 767px){
     .WWDH{
         height: 5vh;
         width: 100vw;
         font-size: 2rem;
+        /* margin: 4rem; */
+        padding-top: 4rem;
+        padding-bottom: 2rem;
     }
 
     .WWDI{

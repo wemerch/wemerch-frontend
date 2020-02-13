@@ -57,10 +57,15 @@
 }
 
 /* Media Queries */
-@media screen and (max-width:415px){
+@media screen and (min-width: 360px) and (max-width: 767px){
     .CU{
         height: 5vh;
         width: 100vw;
         font-size: 2rem;
+        padding-top: 4rem;
+    }
+
+    ::placeholder {
+        font-size: 1rem;
     }
 }

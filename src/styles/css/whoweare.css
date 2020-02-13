@@ -57,7 +57,7 @@ h3 {
 }
 
 /* Media Queries */
-@media screen and (max-width:415px){
+@media screen and (min-width: 360px) and (max-width: 767px){
     .WWAH{
         height: 5vh;
         width: 100vw;
@@ -65,6 +65,7 @@ h3 {
     }
 
     .WWAI{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+        width: 60vw;
     }
 }
