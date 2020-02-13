@@ -8,8 +8,7 @@ export default function ContactUS(){
     return(
         <div className="contactContainer" id="ContactUs">
             <h3 className="CUH">CONTACT US</h3>
-            <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" className="cuform" netlify>
-            <input type="hidden" name="form-name" value="contact" />
+            <form name="contact" method="POST" data-netlify="true" className="cuform" netlify-honeypot="bot-field" netlify>
             <p className="formField">
                 <input type="text" name="name" placeholder="your name" className="field"/>  
             </p>
@@ -22,9 +21,8 @@ export default function ContactUS(){
             <p className="formField">
                 <button type="submit" className="formButton">Send</button>
             </p>
-            <div>
-                <div data-netlify-recaptcha="true"></div>
-            </div>
+            <input type="hidden" name="form-name" value="contact" />
+            <input name="bot-field" />
             </form>
         </div>
     )
