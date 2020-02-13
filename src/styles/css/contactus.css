@@ -62,7 +62,7 @@
         height: 5vh;
         width: 100vw;
         font-size: 2rem;
-        padding-top: 4rem;
+        margin: 0;
     }
 
     ::placeholder {
