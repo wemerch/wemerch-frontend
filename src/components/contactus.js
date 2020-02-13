@@ -7,7 +7,7 @@ import '../styles/css/contactus.css'
 export default function ContactUS(){
     return(
         <div className="contactContainer" id="ContactUs">
-            <h3 className="CU">CONTACT US</h3>
+            <h3 className="CUH">CONTACT US</h3>
             <form name="contact" method="POST" data-netlify="true" className="cuform" netlify>
             <input type="hidden" name="form-name" value="contact" />
             <p className="formField">
