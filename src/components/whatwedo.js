@@ -4,7 +4,6 @@ import React from 'react';
 //css
 import '../styles/css/whatwedo.css'
 import WWDI from '../styles/img/wwdi.png'
-import WWDH from '../styles/img/wwdh.png'
 
 export default function WhoWeAre(){
     return(
